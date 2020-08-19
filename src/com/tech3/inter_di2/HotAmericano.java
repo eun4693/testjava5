@@ -1,0 +1,9 @@
+package com.tech3.inter_di2;
+
+public class HotAmericano implements Americano {
+
+	@Override 
+	public String getName() { //부모 메소드에 있음 완벽
+		return "뜨아_뜨거운 아메리카노";
+	}
+}
